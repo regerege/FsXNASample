@@ -41,7 +41,11 @@
     <Compile Include="Sample01.fs" />
     <Compile Include="Sample02.fs" />
     <Compile Include="Sample03.fs" />
+    <Compile Include="Sample04.fs" />
     <Compile Include="Program.fs" />
+    <None Include="04_penguins.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553" />
